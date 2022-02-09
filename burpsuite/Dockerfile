@@ -1,6 +1,7 @@
 FROM openjdk:11-jre-slim
 
 LABEL author.lastname="LECOMTE" author.firstname="Cyril"
+
 ENV USER burpsuite
 ENV HOME /home/${USER}
 ENV APP https://portswigger-cdn.net/burp/releases/download?product=community&version=2021.12.1&type=Jar
